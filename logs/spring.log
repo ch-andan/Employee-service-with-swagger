@@ -1,0 +1,210 @@
+2023-01-24 10:20:17 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 102316 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 10:20:17 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 10:20:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-24 10:20:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-24 10:20:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 10:20:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 7 JPA repository interfaces.
+2023-01-24 10:20:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 10:20:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 10:20:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 10:20:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 10:20:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2023-01-24 10:20:19 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 10:20:19 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-24 10:20:19 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-24 10:20:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-24 10:20:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-24 10:20:19 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 10:20:20 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 10:20:20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:20:21 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@669df50c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a8a6269, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a9eaac, org.springframework.security.web.header.HeaderWriterFilter@46228f03, org.springframework.security.web.authentication.logout.LogoutFilter@637befc, com.pws.employee.security.jwt.config.JwtFilter@77ce2109, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30709bb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29fff6f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f4ff53c, org.springframework.security.web.session.SessionManagementFilter@19a6ced2, org.springframework.security.web.access.ExceptionTranslationFilter@1059a44b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18933fd3]
+2023-01-24 10:20:21 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 10:20:21 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 10:20:21 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 10:20:22 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-24 10:20:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 10:20:22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-01-24 10:20:22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-01-24 10:20:22 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-01-24 10:20:22 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: openapiJsonUsingGET_1
+2023-01-24 10:20:22 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Started PwsAdminServiceApplication in 5.715 seconds (JVM running for 6.468)
+2023-01-24 10:20:44 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-24 10:20:44 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-24 10:20:44 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-24 10:20:45 [http-nio-8081-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/
+2023-01-24 10:20:45 [http-nio-8081-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/csrf
+2023-01-24 10:55:06 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:55:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-24 10:55:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-24 10:55:13 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 102316 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 10:55:13 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 10:55:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 10:55:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 7 JPA repository interfaces.
+2023-01-24 10:55:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 10:55:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 10:55:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 10:55:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 10:55:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2023-01-24 10:55:14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 10:55:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-01-24 10:55:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-01-24 10:55:14 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 10:55:19 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 10:55:19 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:55:20 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54bf7e79, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@287b624d, org.springframework.security.web.context.SecurityContextPersistenceFilter@15de909c, org.springframework.security.web.header.HeaderWriterFilter@296f260b, org.springframework.security.web.authentication.logout.LogoutFilter@364a5563, com.pws.employee.security.jwt.config.JwtFilter@6259bc82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a9a37e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@462680de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@173e782d, org.springframework.security.web.session.SessionManagementFilter@741cbb50, org.springframework.security.web.access.ExceptionTranslationFilter@665ca51c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d5b094e]
+2023-01-24 10:55:20 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 10:55:20 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 10:55:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 10:55:21 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-24 10:55:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 10:55:21 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-01-24 10:55:21 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-01-24 10:55:21 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-01-24 10:55:21 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: openapiJsonUsingGET_1
+2023-01-24 10:55:21 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Started PwsAdminServiceApplication in 8.306 seconds (JVM running for 2105.314)
+2023-01-24 10:55:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-24 10:56:23 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:56:23 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2023-01-24 10:56:23 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2023-01-24 10:56:23 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 102316 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 10:56:23 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 10:56:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 10:56:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 207 ms. Found 7 JPA repository interfaces.
+2023-01-24 10:56:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 10:56:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 10:56:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 10:56:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 10:56:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 752 ms
+2023-01-24 10:56:23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 10:56:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-01-24 10:56:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2023-01-24 10:56:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 10:56:26 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 10:56:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:56:26 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2216e850, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6de66153, org.springframework.security.web.context.SecurityContextPersistenceFilter@48923290, org.springframework.security.web.header.HeaderWriterFilter@664ab434, org.springframework.security.web.authentication.logout.LogoutFilter@42e2346c, com.pws.employee.security.jwt.config.JwtFilter@6e231e3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c0f1594, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f57f135, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@527687ec, org.springframework.security.web.session.SessionManagementFilter@4256d907, org.springframework.security.web.access.ExceptionTranslationFilter@3174bfa1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73f9c374]
+2023-01-24 10:56:26 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 10:56:26 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 10:56:26 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 10:56:26 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-24 10:56:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 10:56:26 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-01-24 10:56:26 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-01-24 10:56:26 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-01-24 10:56:26 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: openapiJsonUsingGET_1
+2023-01-24 10:56:26 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Started PwsAdminServiceApplication in 3.754 seconds (JVM running for 2170.91)
+2023-01-24 10:56:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-24 10:57:14 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:57:14 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2023-01-24 10:57:14 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2023-01-24 10:57:14 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 102316 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 10:57:14 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 10:57:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 10:57:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 7 JPA repository interfaces.
+2023-01-24 10:57:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 10:57:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 10:57:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 10:57:15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 10:57:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 519 ms
+2023-01-24 10:57:15 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 10:57:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2023-01-24 10:57:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2023-01-24 10:57:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 10:57:16 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 10:57:16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:57:17 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62e72808, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72a4d0af, org.springframework.security.web.context.SecurityContextPersistenceFilter@4962d4da, org.springframework.security.web.header.HeaderWriterFilter@2918f6d3, org.springframework.security.web.authentication.logout.LogoutFilter@3f233376, com.pws.employee.security.jwt.config.JwtFilter@71ecce22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eba34ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70fae7c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@343ae34f, org.springframework.security.web.session.SessionManagementFilter@2bb76cb5, org.springframework.security.web.access.ExceptionTranslationFilter@26fe2e2b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c3ecfc1]
+2023-01-24 10:57:17 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 10:57:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 10:57:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 10:57:17 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-24 10:57:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 10:57:17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-01-24 10:57:17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-01-24 10:57:17 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-01-24 10:57:17 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: openapiJsonUsingGET_1
+2023-01-24 10:57:17 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Started PwsAdminServiceApplication in 2.59 seconds (JVM running for 2221.464)
+2023-01-24 10:57:17 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-24 11:02:04 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 11:02:04 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2023-01-24 11:02:04 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2023-01-24 11:02:04 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 102316 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 11:02:04 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 11:02:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 11:02:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 7 JPA repository interfaces.
+2023-01-24 11:02:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 11:02:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 11:02:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 11:02:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 11:02:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 535 ms
+2023-01-24 11:02:05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 11:02:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2023-01-24 11:02:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2023-01-24 11:02:05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 11:02:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 11:02:06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 11:02:07 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9cd620d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@359590fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@6072b7e8, org.springframework.security.web.header.HeaderWriterFilter@2a2eb21, org.springframework.security.web.authentication.logout.LogoutFilter@509be384, com.pws.employee.security.jwt.config.JwtFilter@1bf7a6e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@596a78f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c846b16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f8e7c64, org.springframework.security.web.session.SessionManagementFilter@68c021c8, org.springframework.security.web.access.ExceptionTranslationFilter@9760afd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c616543]
+2023-01-24 11:02:07 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 11:02:07 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 11:02:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 11:02:07 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-24 11:02:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 11:02:07 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-01-24 11:02:07 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-01-24 11:02:07 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-01-24 11:02:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: openapiJsonUsingGET_1
+2023-01-24 11:02:07 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Started PwsAdminServiceApplication in 2.352 seconds (JVM running for 2511.259)
+2023-01-24 11:02:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-24 11:07:18 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-24 11:07:18 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-24 11:07:18 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-24 11:07:19 [http-nio-8081-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/
+2023-01-24 11:07:19 [http-nio-8081-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/csrf
+2023-01-24 11:24:47 [RMI TCP Connection(68)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-01-24 11:24:48 [RMI TCP Connection(68)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 11:24:48 [RMI TCP Connection(68)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2023-01-24 11:24:48 [RMI TCP Connection(68)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2023-01-24 11:25:18 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - Starting PwsAdminServiceApplication using Java 17.0.5 on DESKTOP-NS565E7 with PID 106004 (C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master\target\classes started by Chandu in C:\Users\Chandu\Downloads\employeeservice-master\employeeservice-master)
+2023-01-24 11:25:18 [restartedMain] INFO  c.p.e.PwsAdminServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-24 11:25:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-24 11:25:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-24 11:25:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 11:25:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 7 JPA repository interfaces.
+2023-01-24 11:25:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-01-24 11:25:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-24 11:25:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-24 11:25:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-24 11:25:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1640 ms
+2023-01-24 11:25:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 11:25:20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-24 11:25:20 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-24 11:25:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-24 11:25:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-24 11:25:21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-24 11:25:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 11:25:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 11:25:24 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3dba77af, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10af30f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@42245495, org.springframework.security.web.header.HeaderWriterFilter@7fc9af83, org.springframework.security.web.authentication.logout.LogoutFilter@840f28, com.pws.employee.security.jwt.config.JwtFilter@183db2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@664b4416, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f1c3fec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20193aa8, org.springframework.security.web.session.SessionManagementFilter@1e68e4de, org.springframework.security.web.access.ExceptionTranslationFilter@92d7211, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b74733c]
+2023-01-24 11:25:24 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-24 11:25:25 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-01-24 11:25:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 11:25:25 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springDocProviders' defined in class path resource [org/springdoc/core/SpringDocConfiguration.class]: Unsatisfied dependency expressed through method 'springDocProviders' parameter 5; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springdoc.core.providers.SpringWebProvider' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-24 11:25:25 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 11:25:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-24 11:25:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-24 11:25:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-24 11:25:25 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-24 11:25:25 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 5 of method springDocProviders in org.springdoc.core.SpringDocConfiguration required a bean of type 'org.springdoc.core.providers.SpringWebProvider' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springdoc.core.providers.SpringWebProvider' in your configuration.
+
